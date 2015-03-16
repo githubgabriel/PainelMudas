@@ -16,6 +16,10 @@ function ajaxLoadPage(obj, method, page, data) {
         beforeSend: function() {
             /* Ajax loading show div */
             div_ajax_loading.show();
+
+            /* Esconde div Conteudo */
+            div_ajax_conteudo.hide();
+
             /* desativa menu */
             if(obj != null) { div_menu_id.removeClass(class_active_menu); }
         },
@@ -26,6 +30,10 @@ function ajaxLoadPage(obj, method, page, data) {
         complete: function() {
             /* Esconde div de loading .. */
             div_ajax_loading.hide();
+
+            /* Mostra div conteudo */
+            div_ajax_conteudo.fadeIn(700);
+
             /* ativa menu */
             if(obj != null) { $(obj).addClass(class_active_menu); }
         },

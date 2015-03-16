@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5863192" vertical-offset="0" max-vertical-offset="614">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -58,18 +58,21 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#b#0;n#center#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#center#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax-functions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajax-functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BASEV2/javascript/class/ajax-functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.2727275" vertical-offset="30" max-vertical-offset="705">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6708408" vertical-offset="135" max-vertical-offset="825">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -94,11 +97,11 @@
         <option value="$PROJECT_DIR$/ajax/especiesfamilias.php" />
         <option value="$PROJECT_DIR$/ajax/vendas.php" />
         <option value="$PROJECT_DIR$/ajax/clientes.php" />
-        <option value="$PROJECT_DIR$/BASEV2/javascript/class/ajax-functions.js" />
         <option value="$PROJECT_DIR$/js/site.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/ajax/home.php" />
         <option value="$PROJECT_DIR$/css/site.css" />
+        <option value="$PROJECT_DIR$/ajax/home.php" />
+        <option value="$PROJECT_DIR$/BASEV2/javascript/class/ajax-functions.js" />
       </list>
     </option>
   </component>
@@ -150,20 +153,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,18 +326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BASEV2/javascript/class/ajax-functions.js">
+    <entry file="file://$PROJECT_DIR$/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2727275" vertical-offset="30" max-vertical-offset="705">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -363,16 +344,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#center#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/site.css">
+    <entry file="file://$PROJECT_DIR$/BASEV2/javascript/class/ajax-functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5863192" vertical-offset="0" max-vertical-offset="614">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.6708408" vertical-offset="135" max-vertical-offset="825">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding />
         </state>
       </provider>
