@@ -14,17 +14,20 @@ function ajaxLoadPage(obj, method, page, data) {
         type: method,
         async: false,
         beforeSend: function() {
+            /* Ajax loading show div */
             div_ajax_loading.show();
             /* desativa menu */
-            div_menu_id.removeClass(class_active_menu);
+            if(obj != null) { div_menu_id.removeClass(class_active_menu); }
         },
         success: function( data ) {
+            /* Alimenta div aonde receberá conteudo */
             div_ajax_conteudo.html(data);
         },
         complete: function() {
+            /* Esconde div de loading .. */
             div_ajax_loading.hide();
             /* ativa menu */
-            $(obj).addClass(class_active_menu);
+            if(obj != null) { $(obj).addClass(class_active_menu); }
         },
         statusCode: {
             404: function() {
@@ -35,6 +38,5 @@ function ajaxLoadPage(obj, method, page, data) {
         }
 
     });
-
     console.log("ajaxLoadPage: Pagina: "+page+" carregada com sucesso!");
 }
