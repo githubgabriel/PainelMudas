@@ -7,6 +7,20 @@ use base\gerenciar_mudas\especiesFamilia;
 /* Verifica se Sessao do Login está ativa ! */
 ambiente_restrito::isLogged();
 
+
+$_PAGE_LIST = "estoque_mudas.php";
+//$_PAGE_FORM = "estoque_mudas_Fo.php";
+
+if($_POST["ColunaValor"] and $_POST["id"]) {
+
+    $obj = new especiesFamilia();
+
+    $p = $conexao->prepare($obj->updateColunaByID($_POST["ColunaValor"],$_POST["UpdateValor"],$_POST["id"]));
+    $p->execute();
+
+}
+
+
 ?><!--
 <button style="margin-bottom:10px;" onclick="return novo_registro();"> NOVO REGISTRO </button>
 -->
@@ -41,9 +55,9 @@ ambiente_restrito::isLogged();
             <td> {$row->especie}</td>
             <td> {$row->familia}</td>
             <td> <a href='#'><button>Wiki</button></a></td>
-            <td> <button onclick='return updateQTD({$row->id});'>{$row->qtd_pequeno}</button> </td>
-            <td> <button>{$row->qtd_medio}</button> </td>
-            <td> <button>{$row->qtd_grande}</button> </td>
+            <td> <button onclick=\"return updateQTD({$row->id},'qtd_pequeno');\">{$row->qtd_pequeno}</button> </td>
+            <td> <button onclick=\"return updateQTD({$row->id},'qtd_medio');\">{$row->qtd_medio}</button> </td>
+            <td> <button onclick=\"return updateQTD({$row->id},'qtd_grande');\">{$row->qtd_grande}</button> </td>
             </tr>";
 
         }
@@ -69,19 +83,18 @@ ambiente_restrito::isLogged();
 
 <script>
 
-    function updateQTD(id) {
+    function updateQTD(id,coluna) {
 
         var pr = prompt("Atualizar Quantidade para:");
 
         if(pr) {
 
-            var confrm = confirm("ATENÇÃO: QUANTIDADE SERÁ ATUALIZADO APÓS CONFIRMAÇÃO!");
+                var data = new FormData();
+                data.append("UpdateValor", pr);
+                data.append("ColunaValor", coluna);
+                data.append("id", id);
 
-            if(confrm) {
-
-                alert("Atualizado com sucesso!");
-
-            }
+                ajaxLoadPage(null, "post", "ajax/<?=$_PAGE_LIST?>", data );
 
         }
     }

@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
 
-    <title>Document</title>
+    <title>Gerenciador de Mudas :D</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/site.css">

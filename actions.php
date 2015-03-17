@@ -1,5 +1,4 @@
 <?php ob_start();
-
     include "BASEV2/basev2.php"; getBaseV2("php");
 
     use base\ambiente_restrito\ambiente_restrito;
@@ -15,15 +14,16 @@
         $re = ambiente_restrito::validarLoginSenha($login,$senha);
 
         if($re) {
-
+            redirecionar("index.php");
         } else {
-
-           echo "<script> window.location.href= 'login.php'; </script>";
-
+            redirecionar("login.php");
         }
-        echo "ae";
     }
-
-
-
+    else if($a == "logout") {
+        ambiente_restrito::isLogged("nao");
+        redirecionar("login.php");
+    }
+    else {
+        echo "NOACTIONNOOB :x";
+    }
 ?>

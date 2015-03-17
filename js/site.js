@@ -1,4 +1,5 @@
 function logout() {
 
-    window.location.href='login.php';
+    window.location.href='actions.php?a=logout';
+
 }

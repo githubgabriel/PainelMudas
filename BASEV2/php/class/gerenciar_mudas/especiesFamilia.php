@@ -74,6 +74,13 @@ class especiesFamilia {
 
     }
 
+    public function updateColunaByID($coluna,$novovalor,$id) {
+
+        $tmp = "UPDATE {$this->tabela} SET $coluna = '$novovalor' where id = '$id'";
+        return $tmp;
+
+    }
+
     /**
      * @return string
      */
