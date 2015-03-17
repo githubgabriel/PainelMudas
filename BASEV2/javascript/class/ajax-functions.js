@@ -1,3 +1,8 @@
+
+function redirecionarAjax(url) {
+    ajaxLoadPage(null, "get", url, null);
+}
+
 function ajaxLoadPage(obj, method, page, data) {
 
     var div_ajax_conteudo = $("div#conteudo-box div#conteudo");
@@ -13,6 +18,8 @@ function ajaxLoadPage(obj, method, page, data) {
         data: data,
         type: method,
         async: false,
+        processData: false,
+        contentType: false,
         beforeSend: function() {
             /* Ajax loading show div */
             div_ajax_loading.show();
@@ -46,5 +53,4 @@ function ajaxLoadPage(obj, method, page, data) {
         }
 
     });
-    console.log("ajaxLoadPage: Pagina: "+page+" carregada com sucesso!");
 }

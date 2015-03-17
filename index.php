@@ -3,7 +3,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
+
     <title>Document</title>
 
     <link rel="stylesheet" href="css/reset.css">
@@ -34,7 +36,7 @@
 
             <li onclick="return ajaxLoadPage(this,'get','ajax/clientes.php')"> Clientes </li>
 
-            <!--<li onclick="return ajaxLoadPage(this,'get','ajax/relatorios.php')"> Relatorios </li>-->
+            <li onclick="return ajaxLoadPage(this,'get','ajax/relatorios.php')"> Relatorios </li>
 
         </ul>
         <div class="clear"> </div>

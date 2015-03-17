@@ -7,7 +7,7 @@ body { min-height: 100%; background: url('../img/bg.jpg');   background-position
     background-size: cover;
     background-color: #464646; }
 
-a { color: green; }
+a { color: green;text-decoration: none; }
 a:hover { color:red; }
 
 button { padding:4px; }
@@ -19,16 +19,32 @@ img { max-width: 100%; }
 .table_style thead tr td { text-align:center; background-color: green; color: white; padding: 4px 5px; }
 .table_style tr td { text-align:center; background-color: white; color: black; padding: 4px 5px; }
 
+.wid100 { float:left; width: 100% !important; }
+.wid75 { float:left; width: 75% !important; }
+.wid50 { float:left; width: 50% !important; }
+.wid25 { float:left; width: 25% !important; }
+.wid15 { float:left; width: 15% !important; }
+.wid10 { float:left; width: 10% !important; }
+
 .clear { clear:both;}
 
 #menu-box #sessao-usuario { color:white; position:absolute;top:-30px; right:0px; font-size:11px; }
 #menu-box #sessao-usuario button { color:black; }
 #menu-box { margin: 0 auto; width: 80%; margin-top:3%; margin-bottom: 20px; border-radius: 8px; padding: 2px; position:relative;}
 #menu-box ul li { margin-left: 2px;float:left; padding: 12px 15px; font-size:13px; }
+#menu-box ul li { list-style-type: none; }
 #menu-box ul li:hover { background-color: forestgreen; border-radius: 8px; color:white; cursor:pointer; opacity: inherit; }
 #menu-box .active { background-color: forestgreen; color:white;  border-radius: 8px;  }
 
 #conteudo-box { margin: 0 auto; width:80%; border-radius: 8px;  }
 #conteudo-box #conteudo { opacity: 1; padding: 20px; overflow-x: auto;  }
 
+
+#conteudo-login { margin: 0 auto; max-width:240px; border-radius: 8px;  }
+#conteudo-login #conteudo { opacity: 1; padding: 20px; overflow-x: auto;  }
+
 #ajax_loader { display:none; border-radius:8px; width:50%; padding:10px; font-size:11px; margin: 0 auto; text-align:center;   }
+
+#form { margin: 10px; }
+#form input[type=text] { padding: 5px; margin-top:10px;}
+#form input[type=submit] { padding: 5px;}
