@@ -13,7 +13,13 @@
 
     <?php getBaseV2("css"); ?>
 
-    <?php getBaseV2("javascript"); ?>
+    <?php
+        getBaseV2("javascript");
+
+        getPluginJS("jquery");
+        getPluginJS("JqueryTE");
+        getFunctionJS("ajax");
+    ?>
 
     <script src="js/site.js"> </script>
 

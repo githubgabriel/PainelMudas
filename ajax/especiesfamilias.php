@@ -37,10 +37,11 @@ ambiente_restrito::isLogged();
                 if($row->file) {
                      echo '<div style="width:70px;height:70px; margin:10px; background: url('.$obj->getDirUpload().$row->file.') center center;background-size:cover;"></div>' ;
                  } else { echo "Sem Imagem"; }
+
     echo "</td>
         <td>{$row->especie}</td>
         <td>{$row->familia}</td>
-        <td><a href='#'><button>Wiki</button></a></td>
+        <td><a href='#' onclick='return abreWiki({$row->id})'><button>Docs</button></a></td>
         <td> <button onclick='return editar({$row->id});'> EDITAR </button> </td>
     </tr>";
 

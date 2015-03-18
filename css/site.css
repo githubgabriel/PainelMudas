@@ -15,9 +15,11 @@ button { padding:4px; }
 img { max-width: 100%; }
 
 .bg_1 { background-color: rgba(255,255,255,0.8);}
-.table_style { width: 100%; font-size:12px; }
-.table_style thead tr td { text-align:center; background-color: green; color: white; padding: 4px 5px; }
-.table_style tr td { text-align:center; background-color: white; color: black; padding: 4px 5px; }
+.table_style { width: 100%; font-size:12px; background-color:white; }
+table thead tr td { text-align:center; background-color: green; color: white; padding: 4px 5px; }
+table tbody tr td { text-align:center;  padding: 4px 5px; }
+table button { color:black; }
+table tr:hover { color: white; background-color:green;}
 
 .wid100 { float:left; width: 100% !important; }
 .wid75 { float:left; width: 75% !important; }

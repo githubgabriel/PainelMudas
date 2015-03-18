@@ -54,7 +54,7 @@ if($_POST["ColunaValor"] and $_POST["id"]) {
             <td> {$row->id}</td>
             <td> {$row->especie}</td>
             <td> {$row->familia}</td>
-            <td> <a href='#'><button>Wiki</button></a></td>
+            <td> <a href='#' onclick='return abreWiki({$row->id})'><button>Docs</button></a></td>
             <td> <button onclick=\"return updateQTD({$row->id},'qtd_pequeno');\">{$row->qtd_pequeno}</button> </td>
             <td> <button onclick=\"return updateQTD({$row->id},'qtd_medio');\">{$row->qtd_medio}</button> </td>
             <td> <button onclick=\"return updateQTD({$row->id},'qtd_grande');\">{$row->qtd_grande}</button> </td>
