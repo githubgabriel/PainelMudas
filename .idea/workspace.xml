@@ -25,132 +25,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wiki.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/wiki.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.416667" vertical-offset="200" max-vertical-offset="1065">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              <folding>
-                <element signature="e#73#118#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-                <marker date="1426699534000" expanded="true" signature="831:868" placeholder="..." />
-                <marker date="1426699534000" expanded="true" signature="831:894" placeholder="..." />
-                <marker date="1426699534000" expanded="true" signature="831:954" placeholder="..." />
-                <marker date="1426699534000" expanded="true" signature="831:1106" placeholder="..." />
-                <marker date="1426699534000" expanded="true" signature="896:912" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/site.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="855">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wiki_Form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/wiki_Form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="1740" max-vertical-offset="2430">
-              <caret line="138" column="49" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
-              <folding>
-                <element signature="e#75#120#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-te-1.4.0.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BASEV2/javascript/plugins/JqueryTE/jquery-te-1.4.0.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4823" max-vertical-offset="6945">
-              <caret line="338" column="33" selection-start-line="338" selection-start-column="33" selection-end-line="338" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="javascript.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BASEV2/javascript/javascript.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="630">
-              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1110">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BASEV2/css/css.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
-              <caret line="2" column="97" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1050">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.39823008" vertical-offset="105" max-vertical-offset="1155">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wikiMudas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BASEV2/php/class/gerenciar_mudas/wikiMudas.php">
+      <file leaf-file-name="especiesfamilias_Form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/especiesfamilias_Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.541666" vertical-offset="614" max-vertical-offset="2280">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state vertical-scroll-proportion="-4.810127" vertical-offset="1690" max-vertical-offset="2730">
+              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
-                <marker date="1426691065000" expanded="true" signature="504:548" placeholder="delete from ..." />
-                <marker date="1426691065000" expanded="true" signature="633:679" placeholder="select * fro.._this_tabela_ where..." />
-                <marker date="1426691065000" expanded="true" signature="804:860" placeholder="select * fro.._this_tabela_ order..." />
-                <marker date="1426691065000" expanded="true" signature="900:1003" placeholder="select * fro.._this_tabela_ where..." />
-                <marker date="1426691065000" expanded="true" signature="1099:1349" placeholder="INSERT INTO ..." />
-                <marker date="1426691065000" expanded="true" signature="1433:1604" placeholder="UPDATE :_thi..." />
-                <marker date="1426691065000" expanded="true" signature="1735:1801" placeholder="UPDATE :_thi..." />
+                <element signature="e#74#119#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#form#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="especiesfamilias.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/especiesfamilias.php">
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125" vertical-offset="90" max-vertical-offset="1185">
-              <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
-              <folding>
-                <element signature="e#73#118#0#PHP" expanded="true" />
-                <marker date="1426705257000" expanded="true" signature="835:876" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estoque_mudas.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax/estoque_mudas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5496183" vertical-offset="480" max-vertical-offset="1800">
-              <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
-              <folding>
-                <element signature="e#73#118#0#PHP" expanded="true" />
-                <marker date="1426705271000" expanded="true" signature="1309:1876" placeholder="..." />
-                <marker date="1426705271000" expanded="true" signature="1910:2125" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-10.961538" vertical-offset="3390" max-vertical-offset="6480">
+              <caret line="245" column="40" selection-start-line="245" selection-start-column="40" selection-end-line="245" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,7 +79,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/BASEV2/css/css.php" />
-        <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/ajax/404.php" />
         <option value="$PROJECT_DIR$/ajax/vendas.php" />
         <option value="$PROJECT_DIR$/ajax/clientes.php" />
@@ -181,22 +93,23 @@
         <option value="$PROJECT_DIR$/BASEV2/config.inc.php" />
         <option value="$PROJECT_DIR$/BASEV2/php/class/upload/upload.php" />
         <option value="$PROJECT_DIR$/BASEV2/javascript/class/ajax-functions.js" />
-        <option value="$PROJECT_DIR$/BASEV2/funcoes_essenciais.php" />
-        <option value="$PROJECT_DIR$/ajax/especiesfamilias_Form.php" />
         <option value="$PROJECT_DIR$/BASEV2/basev2.php" />
         <option value="$PROJECT_DIR$/BASEV2/php/class/gerenciar_mudas/especiesFamilia.php" />
         <option value="$PROJECT_DIR$/BASEV2/php/class/ambiente_restrito/ambiente_restrito.php" />
         <option value="$PROJECT_DIR$/actions.php" />
         <option value="$PROJECT_DIR$/js/site.js" />
         <option value="$PROJECT_DIR$/BASEV2/php/class/gerenciar_mudas/wikiMudas.php" />
-        <option value="$PROJECT_DIR$/BASEV2/javascript/javascript.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/ajax/wiki.php" />
         <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/ajax/wiki_Form.php" />
         <option value="$PROJECT_DIR$/BASEV2/javascript/plugins/JqueryTE/jquery-te-1.4.0.css" />
         <option value="$PROJECT_DIR$/ajax/especiesfamilias.php" />
         <option value="$PROJECT_DIR$/ajax/estoque_mudas.php" />
+        <option value="$PROJECT_DIR$/BASEV2/funcoes_essenciais.php" />
+        <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/BASEV2/javascript/javascript.php" />
+        <option value="$PROJECT_DIR$/ajax/especiesfamilias_Form.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -275,126 +188,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BASEV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BASEV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BASEV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JqueryTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BASEV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BASEV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PainelMudas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BASEV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,14 +309,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95114005" vertical-offset="5806" max-vertical-offset="6480">
-          <caret line="426" column="1" selection-start-line="426" selection-start-column="1" selection-end-line="426" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/clientes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="495">
@@ -613,16 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BASEV2/funcoes_essenciais.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="780">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="25" />
-          <folding>
-            <marker date="1426607126000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BASEV2/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6637168" vertical-offset="0" max-vertical-offset="678">
@@ -689,32 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/especiesfamilias_Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3539823" vertical-offset="150" max-vertical-offset="2580">
-          <caret line="26" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="9" />
-          <folding>
-            <element signature="e#74#119#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BASEV2/php/class/gerenciar_mudas/wikiMudas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.541666" vertical-offset="614" max-vertical-offset="2280">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <marker date="1426691065000" expanded="true" signature="504:548" placeholder="delete from ..." />
-            <marker date="1426691065000" expanded="true" signature="633:679" placeholder="select * fro.._this_tabela_ where..." />
-            <marker date="1426691065000" expanded="true" signature="804:860" placeholder="select * fro.._this_tabela_ order..." />
-            <marker date="1426691065000" expanded="true" signature="900:1003" placeholder="select * fro.._this_tabela_ where..." />
-            <marker date="1426691065000" expanded="true" signature="1099:1349" placeholder="INSERT INTO ..." />
-            <marker date="1426691065000" expanded="true" signature="1433:1604" placeholder="UPDATE :_thi..." />
-            <marker date="1426691065000" expanded="true" signature="1735:1801" placeholder="UPDATE :_thi..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BASEV2/basev2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34503818" vertical-offset="164" max-vertical-offset="855">
@@ -733,33 +482,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BASEV2/css/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
-          <caret line="2" column="97" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BASEV2/javascript/javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="855">
+        <state vertical-scroll-proportion="0.6880342" vertical-offset="132" max-vertical-offset="855">
           <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
           <folding />
         </state>
@@ -767,7 +492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/wiki_Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="1740" max-vertical-offset="2430">
+        <state vertical-scroll-proportion="0.48672566" vertical-offset="1740" max-vertical-offset="2430">
           <caret line="138" column="49" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
           <folding>
             <element signature="e#75#120#0#PHP" expanded="true" />
@@ -780,50 +505,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/wiki.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5457227" vertical-offset="200" max-vertical-offset="1065">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="e#73#118#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <marker date="1426699534000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426699534000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426699534000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426699534000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426699534000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BASEV2/css/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045801528" vertical-offset="0" max-vertical-offset="655">
+          <caret line="2" column="97" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BASEV2/javascript/plugins/JqueryTE/jquery-te-1.4.0.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4823" max-vertical-offset="6945">
+        <state vertical-scroll-proportion="0.36377025" vertical-offset="4823" max-vertical-offset="6945">
           <caret line="338" column="33" selection-start-line="338" selection-start-column="33" selection-end-line="338" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/wiki.php">
+    <entry file="file://$PROJECT_DIR$/BASEV2/php/class/gerenciar_mudas/wikiMudas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.416667" vertical-offset="200" max-vertical-offset="1065">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.62094396" vertical-offset="614" max-vertical-offset="2280">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
-            <element signature="e#73#118#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
-            <marker date="1426699534000" expanded="true" signature="831:868" placeholder="..." />
-            <marker date="1426699534000" expanded="true" signature="831:894" placeholder="..." />
-            <marker date="1426699534000" expanded="true" signature="831:954" placeholder="..." />
-            <marker date="1426699534000" expanded="true" signature="831:1106" placeholder="..." />
-            <marker date="1426699534000" expanded="true" signature="896:912" placeholder="..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="select * fro.._this_tabela_ where..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="select * fro.._this_tabela_ order..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="select * fro.._this_tabela_ where..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="UPDATE :_thi..." />
+            <marker date="1426691065000" expanded="true" signature="-1:-1" placeholder="UPDATE :_thi..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/especiesfamilias.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125" vertical-offset="90" max-vertical-offset="1185">
+        <state vertical-scroll-proportion="0.8185841" vertical-offset="90" max-vertical-offset="1185">
           <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
           <folding>
             <element signature="e#73#118#0#PHP" expanded="true" />
-            <marker date="1426705257000" expanded="true" signature="835:876" placeholder="..." />
+            <marker date="1426705257000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/estoque_mudas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5496183" vertical-offset="480" max-vertical-offset="1800">
-          <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.24336283" vertical-offset="480" max-vertical-offset="1800">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
             <element signature="e#73#118#0#PHP" expanded="true" />
-            <marker date="1426705271000" expanded="true" signature="1309:1876" placeholder="..." />
-            <marker date="1426705271000" expanded="true" signature="1910:2125" placeholder="..." />
+            <marker date="1426705271000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426705271000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BASEV2/funcoes_essenciais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6017699" vertical-offset="132" max-vertical-offset="960">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.961538" vertical-offset="3390" max-vertical-offset="6480">
+          <caret line="245" column="40" selection-start-line="245" selection-start-column="40" selection-end-line="245" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BASEV2/javascript/javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/especiesfamilias_Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.810127" vertical-offset="1690" max-vertical-offset="2730">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#119#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39823008" vertical-offset="105" max-vertical-offset="1155">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
