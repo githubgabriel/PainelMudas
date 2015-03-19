@@ -14,11 +14,18 @@
     <?php getBaseV2("css"); ?>
 
     <?php
+
         getBaseV2("javascript");
 
-        getPluginJS("jquery");
+        getPluginJS("Jquery");
         getPluginJS("JqueryTE");
+        getPluginJS("JqueryUI");
+        getPluginJS("BootStrap");
+        //getPluginJS("Mask");
+        getPluginJS("Chosen");
+
         getFunctionJS("ajax");
+
     ?>
 
     <script src="js/site.js"> </script>
@@ -42,8 +49,8 @@
 
             <li onclick="return ajaxLoadPage(this,'get','ajax/clientes.php')"> Clientes </li>
 
-            <li onclick="return ajaxLoadPage(this,'get','ajax/relatorios.php')"> Relatorios </li>
-
+           <!-- <li onclick="return ajaxLoadPage(this,'get','ajax/relatorios.php')"> Relatorios </li>
+-->
         </ul>
         <div class="clear"> </div>
     </div>

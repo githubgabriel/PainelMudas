@@ -3,44 +3,40 @@
 include "../BASEV2/basev2.php"; getBaseV2("php",".");
 
 use base\ambiente_restrito\ambiente_restrito;
-use base\gerenciar_mudas\especiesFamilia;
-use base\upload\upload;
+use base\gerenciar_mudas\clientes;
+//use base\upload\upload;
 
 /* Verifica se Sessao do Login está ativa ! */
 ambiente_restrito::isLogged();
 
 
-
-$_PAGE_LIST = "especiesfamilias.php";
-$_PAGE_FORM = "especiesfamilias_Form.php";
+$_PAGE_LIST = "clientes.php";
+$_PAGE_FORM = "clientes_Form.php";
 
 
 /* INSERT ou UPDATE */
 if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $id = filter_input(INPUT_POST,"id",FILTER_SANITIZE_NUMBER_INT);
-    $familia = filter_input(INPUT_POST,"familia",FILTER_SANITIZE_STRING);
-    $especie = filter_input(INPUT_POST,"especie",FILTER_SANITIZE_STRING);
-    $file = $_FILES["file"];
+    $nome = filter_input(INPUT_POST,"nome",FILTER_SANITIZE_STRING);
+    $email = filter_input(INPUT_POST,"email",FILTER_SANITIZE_STRING);
+    $telefone = filter_input(INPUT_POST,"telefone",FILTER_SANITIZE_STRING);
 
-    if($familia or $especie) {
+    if($nome) {
 
-            $obj = new especiesFamilia();
+        $obj = new clientes();
 
-            $obj->setId($id);
-            $obj->setEspecieNome($especie);
-            $obj->setFamiliaNome($familia);
+        $obj->setId($id);
+        $obj->setNomeCompleto($nome);
+        $obj->setEmail($email);
+        $obj->setTelefone($telefone);
 
-            /* Upload File */
-            $fileOK = upload::upload(null, $file, "./../BASEV2/php/upload/especiesFamilia/", "jpg,jpeg,gif,png");
-            $obj->setImagemFile($fileOK);
-
-            try {
-                $p = $conexao->prepare($obj->save());
-                $p->execute();
-            } catch (Exception $e) {
-                echo $e->getMessage(); die();
-            }
+        try {
+            $p = $conexao->prepare($obj->save());
+            $p->execute();
+        } catch (Exception $e) {
+            echo $e->getMessage(); die();
+        }
 
         redirecionarAjax("ajax/".$_PAGE_LIST);
 
@@ -57,7 +53,7 @@ if(isset($_REQUEST["id"])) {
 
     if($id > 0) {
 
-        $obj = new especiesFamilia();
+        $obj = new clientes();
 
         try {
 
@@ -77,7 +73,7 @@ if($_GET["excluir"] == "1") {
 
     $id = $_REQUEST["id"];
 
-    $obj = new especiesFamilia();
+    $obj = new clientes();
 
     try {
         $p = $conexao->prepare($obj->getDelete($id));
@@ -100,14 +96,14 @@ if($_GET["excluir"] == "1") {
 <? } ?>
 
 <? if(!$colunas->id) { ?>
-<h2 style="color:green;"> Novo Registro </h2>
+    <h2 style="color:green;"> Novo Registro </h2>
 <? } else { ?>
-<h2 style="color:green;"> Atualizar Registro </h2>
+    <h2 style="color:green;"> Atualizar Registro </h2>
 <? } ?>
 
 <small>
-<? if($colunas->data_criacao) { echo parseDataHoraBR($colunas->data_criacao);
-?> <a href="#" onclick="return deletar(<?=$colunas->id?>);"> Excluir </a><? } ?>
+    <? if($colunas->data_criacao) { echo parseDataHoraBR($colunas->data_criacao);
+        ?> <a href="#" onclick="return deletar(<?=$colunas->id?>);"> Excluir </a><? } ?>
 </small>
 
 <form action="#" onsubmit="return enviaForm()" method="post" enctype="multipart/form-data">
@@ -116,9 +112,9 @@ if($_GET["excluir"] == "1") {
 
 
     <div id="form" class="wid25">
-        <label> Nome Especie </label>
+        <label> Nome Completo </label>
         <br>
-        <input type="text" name="especie" value="<?=$colunas->especie?>" />
+        <input type="text" name="nome" value="<?=$colunas->nome_completo?>" />
     </div>
 
 
@@ -126,9 +122,9 @@ if($_GET["excluir"] == "1") {
 
     <div id="form" class="wid50">
 
-        <label> Nome Familia </label>
+        <label> E-mail </label>
         <br>
-        <input id="timepicker" type="text" name="familia" value="<?=$colunas->familia?>" />
+        <input type="text" name="email" value="<?=$colunas->email?>" />
 
     </div>
 
@@ -139,17 +135,14 @@ if($_GET["excluir"] == "1") {
 
     <div id="form">
 
-        <label> Imagem </label>
+        <label> Telefone </label>
         <br>
-        <? if($colunas->file) { ?>
-            <img height="250" style='margin-bottom:10px; margin-top:10px;margin-right:15px;' src="<?=$obj->getDirUpload()?><?=$colunas->file;?>"> <br>
-        <? } ?>
-        <input type="file" id="upload" name="file" />
+        <input type="text" name="telefone" value="<?=$colunas->telefone?>" />
 
     </div>
 
 
-<br>
+    <br>
     <div id="form">
         <input type="submit" value="Registrar" />
     </div>
@@ -161,12 +154,12 @@ if($_GET["excluir"] == "1") {
 
         fileData = new FormData($("form")[0]);
 
-        ajaxLoadPage(null, "post", "ajax/especiesfamilias_Form.php", fileData);
+        ajaxLoadPage(null, "post", "ajax/<?=$_PAGE_FORM?>", fileData);
 
         return false;
     }
 
     function deletar(id) {
-        ajaxLoadPage(null, "get", "ajax/especiesfamilias_Form.php", "id="+id+"&excluir=1");
+        ajaxLoadPage(null, "get", "ajax/<?=$_PAGE_FORM?>", "id="+id+"&excluir=1");
     }
 </script>
